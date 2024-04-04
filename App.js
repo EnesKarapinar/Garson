@@ -1,20 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import { User } from './components/user/User';
+import { Home } from './screens/users/Home';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Garson Uygulamasina Hosgeldiniz</Text>
+    <View style={styles.box}>
       <StatusBar style="auto" />
+      <Home />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  box: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: "#F2F2F2",
+    // fontFamily: "Poppins"
   },
 });
