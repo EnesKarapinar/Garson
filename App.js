@@ -1,14 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { View, StyleSheet } from 'react-native';
 import { Home } from './screens/users/Home';
-import { Login } from './screens/admin/Login'
+import { Login } from './screens/admin/Login';
+import CategoryPage from './screens/users/category/CategoryPage'
+
 
 export default function App() {
   return (
     <View style={styles.box}>
       <StatusBar style="auto" />
       {/* <Home /> */}
-      <Login />
+      {/* <Login /> */}
+      <CategoryPage />
     </View>
   );
 }
