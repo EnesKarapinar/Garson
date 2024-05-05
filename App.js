@@ -3,6 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import { Home } from './screens/users/Home';
 import { Login } from './screens/admin/Login';
 import CategoryPage from './screens/users/category/CategoryPage'
+import ProductsPage from './screens/users/products/ProductsPage';
 
 
 export default function App() {
@@ -11,7 +12,8 @@ export default function App() {
       <StatusBar style="auto" />
       {/* <Home /> */}
       {/* <Login /> */}
-      <CategoryPage />
+      {/* <CategoryPage /> */}
+      <ProductsPage />
     </View>
   );
 }

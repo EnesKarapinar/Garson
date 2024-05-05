@@ -1,4 +1,4 @@
-import { View, StyleSheet, TextInput } from 'react-native';
+import { TextInput } from 'react-native';
 import { Style } from "./Style";
 
 export default function SearchBar() {

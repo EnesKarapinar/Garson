@@ -9,6 +9,6 @@ export const Style = StyleSheet.create({
         padding: 10,
         paddingHorizontal: 20,
         width: "100%",
-        marginBottom: 30
+        marginBottom: 30,
     }
 })

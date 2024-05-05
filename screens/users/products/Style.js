@@ -22,7 +22,7 @@ export const Style = StyleSheet.create({
         fontWeight: "bold",
         color: "#0E0E0E"
     },
-    categories: {
+    products: {
         backgroundColor: "#F2F2F2",
         paddingLeft: 50,
         paddingRight: 50,

@@ -4,7 +4,7 @@ export const Style = StyleSheet.create({
     inclusive: {
         borderColor: "#0E0E0E",
         borderWidth: 1,
-        width: "44%",
+        width: "100%",
         aspectRatio: 1 / 1,
         borderRadius: 5,
         overflow: "hidden",
