@@ -7,8 +7,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import CategoryPage from './screens/users/category/CategoryPage'
 import ProductsPage from './screens/users/products/ProductsPage';
 import QrGenerator from './screens/users/qrGenerator/QrGenerator';
-import QrScanner from './screens/users/qrScanner/QrScanner'
-
+import QrScanner from './screens/users/qrScanner/QrScanner';
 
 export default function App() {
   return (
@@ -33,6 +32,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: "#F2F2F2",
-    // fontFamily: "Poppins"
   },
 });
